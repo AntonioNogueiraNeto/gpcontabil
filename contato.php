@@ -125,7 +125,7 @@
 							</ul>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link menu-link" href="contato.html">Fale Conosco</a>
+							<a class="nav-link menu-link" href="contato.php">Fale Conosco</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link menu-link" href="suporte.html">Suporte</a>
@@ -140,112 +140,12 @@
 
 
 
-
-	<section id="content">
-
-
-
-		<div class="grid-bg d-none d-md-block">
-			<img src="./Movers Demo _ Canvas_files/dot-grid.svg" alt="Dot Image">
-		</div>
-		</div>
-		</div>
-		</div>
-
-		<div class="container mb-5">
-			<div class="section-clients mx-auto" style="max-width: 700px">
-				<div class="text-center mb-4">
-					<span class="badge rounded-pill lightthemecolor color text-uppercase ls-1 fw-medium py-2 px-3"
-						style="margin-top: 20px;">Oferecendo serviços contábeis desde 2005</span>
-				</div>
-
-
-				<div class="" data-state="open">
-					<div>
-
-						<div class="" style="margin-top: 0;">
-							<a href="contato.html">
-								<h3 style="margin-bottom: none; padding: none;"> A Empresa </h3>
-							</a>
-						</div>
-					</div>
-					<hr class="style6">
-					<hr class="style6">
-					<hr class="style6">
-					<br>
-					<div class="text-black-50">
-						<p>Somos uma equipe de consultores e assessores com amplos conhecimentos em Gestão
-							Previdenciária, através da excelência dos serviços prestados e recursos disponibilizados,
-							proporcionando aos gestores a segurança para tomadas de decisões com facilidade e
-							objetividade para os serviços do cotidiano dos Regimes Próprios de Previdência.</p>
-
-						<p>
-							A GP Consultoria e Assessoria Contábil é uma empresa que desde 2005 faz parte do
-							desenvolvimento desse cenário previdenciário que abrange toda a gestão pública.
-						</p>
-
-						<p>
-							Visa o atendimento especializado em assessoria, consultoria contábil e gestão administrativa
-							para RPPS, obedecendo às exigências do Ministério da Previdência, Secretaria do Tesouro
-							Nacional, Tribunais de Contas e demais legislações vigentes.
-						</p>
-
-
-						<h4>Missão</h4>
-
-						<p>
-							Prestar serviço especializado em contabilidade para Regimes Próprios de Previdência com alta
-							qualidade, comprometimento e responsabilidade, auxiliando na eficiência da gestão do RPPS.
-						</p>
-
-						<h4>COMPROMISSO, ÉTICA E QUALIDADE</h4>
-
-						<p>
-							Comprometimento e respeito com os clientes estando lado a lado, sempre assessorando e
-							ajudando nas diversas situações cotidianas, demonstrando transparência nas atitudes com
-							responsabilidade e integridade no cumprimento das legislações vigentes, nos serviços
-							prestados e recursos oferecidos.
-						</p>
+	<?php include 'forms.php'?>
 
 
 
-					</div>
-				</div>
 
 
-			</div>
-		</div>
-
-
-
-		<div class="section dark pt-0 mb-0 bg-color"
-			style="background: url(&#39;demos/movers/images/bg-2.png&#39;) no-repeat center bottom / 100%; overflow: visible"
-			data-bs-theme="dark">
-			<svg viewBox="0 0 1960 206.8" class="bg-white">
-				<path class="svg-themecolor" style="opacity:0.2;"
-					d="M0,142.8A2337.49,2337.49,0,0,1,297.5,56.3C569.33-3.53,783.89.22,849.5,2.3c215.78,6.86,382.12,45.39,503.25,73.45,158.87,36.8,283.09,79.13,458.75,54.55A816.49,816.49,0,0,0,1983,86.8v110H0Z">
-				</path>
-				<path class="svg-themecolor" d="M.5,152.8s498-177,849-150,1031,238,1134,94v110H.5Z"></path>
-			</svg>
-			<div class="container">
-				<div class="row align-items-center justify-content-center text-center my-4">
-
-					<div class="col-sm-8">
-						<div class="heading-block border-bottom-0 mb-4">
-							<h2 class="fw-semibold ls-0 text-transform-none mb-3"
-								style="font-size: 44px; line-height: 1.3">
-								Entre em contato conosco para obter o suporte de especialistas contábeis </h2>
-							<p> altamente qualificados em questões financeiras e tributárias.</p>
-						</div>
-						<a href="contato.html"
-							class="button button-white button-light button-rounded fw-medium m-0">Entre em Contato</a>
-					</div>
-
-				</div>
-			</div>
-		</div>
-		</div>
-	</section><!-- #content end -->
 
 	<!-- Footer
 	============================================= -->
@@ -271,7 +171,7 @@
 								</li>
 								<li class="mb-2"><a href="index.html#servicos">Serviços</a>
 								</li>
-								<li class="mb-2"><a href="contato.html">Fale Conosco</a>
+								<li class="mb-2"><a href="contato.php">Fale Conosco</a>
 								</li>
 								<li class="mb-2"><a href="suporte.html">Suporte</a>
 								</li>
