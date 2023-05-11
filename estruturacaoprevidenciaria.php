@@ -40,7 +40,7 @@
 
     <!-- Document Title
 	============================================= -->
-    <title>Movers Demo | Canvas</title>
+    <title> Estruturação previdenciaria | GP Consultoria e Assessoria Contábil</title>
 
     <style>
         .dark #header-wrap:not(.not-dark) #logo [class^="logo-"],
