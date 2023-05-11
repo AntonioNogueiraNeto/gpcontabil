@@ -63,7 +63,7 @@
                 <!-- Logo
             ============================================= -->
                 <div id="logo" class="ms-auto ms-md-0 flex-grow-1">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="logo1.png" alt="logo Gestão Publica Municipal">
                     </a>
                 </div><!-- #logo end -->
@@ -104,10 +104,10 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link menu-link " aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link menu-link " aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link " aria-current="page" href="empresa.html">Empresa</a>
+                            <a class="nav-link menu-link " aria-current="page" href="empresa.php">Empresa</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link menu-link dropdown-toggle" href="" role="button"
@@ -115,17 +115,17 @@
                                 Serviços
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="servicos.html"><i class="bi bi-currency-exchange"></i> Serviços Contábeis</a></li>
-                                <li><a class="dropdown-item" href="acessoriaprevidencia.html"><i class="bi-building"></i> Assessoria e Consultoria Previdenciária</a></li>
-                                <li><a class="dropdown-item" href="estruturacaoprevidenciaria.html"><i class="bi-globe"></i> Estruturação Previdenciária</a></li>
-                                <li><a class="dropdown-item" href="treinamento.html"><i class="bi bi-clipboard-data"></i> Treinamentos</a></li>
+                                <li><a class="dropdown-item" href="servicos.php"><i class="bi bi-currency-exchange"></i> Serviços Contábeis</a></li>
+                                <li><a class="dropdown-item" href="acessoriaprevidencia.php"><i class="bi-building"></i> Assessoria e Consultoria Previdenciária</a></li>
+                                <li><a class="dropdown-item" href="estruturacaoprevidenciaria.php"><i class="bi-globe"></i> Estruturação Previdenciária</a></li>
+                                <li><a class="dropdown-item" href="treinamento.php"><i class="bi bi-clipboard-data"></i> Treinamentos</a></li>
                     </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu-link" href="#">Fale Conosco</a>
+                        <a class="nav-link menu-link" href="contato.php">Fale Conosco</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu-link" href="#">Suporte</a>
+                        <a class="nav-link menu-link" href="suporte.php">Suporte</a>
                     </li>
                     </ul>
                 </div>
@@ -160,8 +160,7 @@
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-7 text-center">
                     <div class="heading-block">
-                        <h3 class="text-transform-none mb-3 fw-semibold ls-0">Assessoria e
-							Consultoria Previdenciária
+                        <h3 class="text-transform-none mb-3 fw-semibold ls-0">Estruturação Previdenciária
                         </h3>
                        
                     </div>
@@ -175,8 +174,9 @@
 									<div class="fbox-icon position-relative mb-4" style="background-image: url(&#39;demos/movers/images/featured-img/1.jpg&#39;);">
                                         <i class="bi bi-bank"></i>									</div>
 									<div class="fbox-content">
-										<h3 class="fw-semibold">Orientação e elaboração de prestação de contas MPS: DIPR, DAIR e DPIN.</h3>
-										<p class="text-muted">As prestações de contas MPS (Ministério da Previdência Social) são importantes documentos financeiros que devem ser elaborados e enviados pelos gestores de regimes próprios de previdência social (RPPS) do país. Existem três tipos de prestações de contas MPS: DIPR, DAIR e DPIN.</p>
+										<h3 class="fw-semibold">Orientações e assessoria para implantação de um RPPS, auxiliando nos aspectos contábeis, atuarial, administrativos e jurídicos.</h3>
+										<p class="text-muted">
+                                            A implantação de um RPPS requer uma análise cuidadosa dos aspectos contábeis, atuariais, administrativos e jurídicos. É importante criar um plano de contas específico, realizar uma avaliação atuarial, estabelecer normas claras de concessão de benefícios e garantir conformidade com a legislação vigente. Uma assessoria especializada pode auxiliar nesse processo, garantindo eficiência e sustentabilidade do sistema.</p>
 									</div>
 								</div>
 							</div>
@@ -186,8 +186,8 @@
 										<i class="bi-building"></i>
 									</div>
 									<div class="fbox-content">
-										<h3 class="fw-semibold">Orientação e elaboração de Termo de Acordo de Parcelamento de Débitos e regularização junto ao MPS de acordo com as exigências legais.</h3>
-										<p class="text-muted">Para elaborar um Termo de Acordo de Parcelamento de Débitos junto ao MPS e regularizar a situação de um regime próprio de previdência social, é necessário seguir as exigências legais. O documento deve conter informações sobre o valor do débito, o número de parcelas, as garantias oferecidas e as condições de pagamento.</p>
+										<h3 class="fw-semibold"> Treinamentos e capacitações de servidores do RPPS.</h3>
+										<p class="text-muted">Treinamentos e capacitações são fundamentais para garantir a eficiência e qualidade do serviço prestado pelos servidores do RPPS. Os treinamentos devem abordar temas como legislação previdenciária, gestão financeira, concessão de benefícios, atendimento ao público, entre outros. A capacitação contínua dos servidores contribui para o aprimoramento do sistema previdenciário, promovendo transparência, ética e qualidade no atendimento aos beneficiários.</p>
 									</div>
 								</div>
 							</div>
@@ -197,59 +197,15 @@
 										<i class="bi-globe"></i>
 									</div>
 									<div class="fbox-content">
-										<h3 class="fw-semibold">Levantamento de débitos previdenciários e atualizações.</h3>
-										<p class="text-muted">O levantamento de débitos previdenciários consiste em identificar e regularizar as pendências financeiras de regimes próprios de previdência social (RPPS).</p>
+										<h3 class="fw-semibold">Orientações e assessoria nas rotinas do RPPS.</h3>
+										<p class="text-muted">As rotinas do RPPS envolvem diversas atividades, como gestão de contribuições, concessão de benefícios, cálculo atuarial, investimentos, entre outras. Orientações e assessoria especializada podem auxiliar na melhoria e otimização dessas rotinas, visando a eficiência e a transparência do sistema. É importante contar com profissionais capacitados e atualizados para garantir o cumprimento das obrigações legais e a satisfação dos beneficiários.</p>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4">
-								<div class="feature-box media-box">
-									<div class="fbox-icon position-relative mb-4">
-                                        <i class="bi bi-calendar2-check"></i>									</div>
-									<div class="fbox-content">
-										<h3 class="fw-semibold"> Assessoria nos cálculos de processos de aposentadorias conforme as EC.</h3>
-										<p class="text-muted">A assessoria nos cálculos de processos de aposentadorias conforme as Emendas Constitucionais (EC) é importante para garantir que o valor dos benefícios previdenciários seja calculado corretamente. É necessário considerar as alterações promovidas pelas ECs e realizar os cálculos de acordo com as regras estabelecidas.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="feature-box media-box">
-									<div class="fbox-icon position-relative mb-4" style="background-image: url(&#39;demos/movers/images/featured-img/1.jpg&#39;);">
-                                        
-                                        <i class="bi bi-clipboard-data"></i>
-                                    </div>
-									<div class="fbox-content">
-										<h3 class="fw-semibold"> FISCAP - Fiscalização de Atos de Pessoal TCE/MG.</h3>
-										<p class="text-muted">O FISCAP (Fiscalização de Atos de Pessoal) é um programa de fiscalização do Tribunal de Contas do Estado de Minas Gerais (TCE/MG) que tem como objetivo verificar a legalidade e a regularidade dos atos de pessoal praticados pelos órgãos e entidades públicas do estado. Essa fiscalização abrange desde a nomeação de servidores até a concessão de benefícios previdenciários, passando por promoções, progressões, licenças e afastamentos. O objetivo é garantir a transparência e a eficiência na gestão pública.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="feature-box media-box">
-									<div class="fbox-icon position-relative mb-4">
-										<i class="bi bi-folder-check"></i>
-									</div>
-									<div class="fbox-content">
-										<h3 class="fw-semibold">COMPREV - Sistema de Compensação Previdenciária entre RGPS e RPPS;</h3>
-										<p class="text-muted">O COMPREV (Sistema de Compensação Previdenciária) é um programa que permite a compensação financeira entre o Regime Geral de Previdência Social (RGPS) e os Regimes Próprios de Previdência Social (RPPS). Ele tem como objetivo evitar a dupla contribuição previdenciária para os servidores públicos que já trabalharam em empresas privadas e vice-versa. O COMPREV é gerenciado pelo Instituto Nacional do Seguro Social (INSS) e pelo Ministério da Previdência Social. </p>
-                                        
-									</div>
-								</div>
-							</div>
+							
+							
+							
                             
-                            <div class="col-md-4">
-								<div class="feature-box media-box">
-									<div class="fbox-icon position-relative mb-4">
-                                        <i class="bi bi-inboxes"></i>
-                                    </div>
-									<div class="fbox-content">
-										<h3 class="fw-semibold">SIPREV - Gestão de RPPS.</h3>
-										<p class="text-muted">
-											O SIPREV é um sistema informatizado desenvolvido pelo Ministério da Economia para a gestão dos Regimes Próprios de Previdência Social (RPPS). Ele permite a organização e o controle das informações referentes aos servidores públicos e aos benefícios previdenciários concedidos, facilitando o acesso dos gestores às informações e otimizando o processo de concessão de benefícios. O SIPREV também auxilia na elaboração dos relatórios e das prestações de contas, garantindo a transparência e a eficiência na gestão dos RPPS. </p>
-                                        
-									</div>
-								</div>
-							</div>
 
                           
 						</div>
@@ -289,7 +245,7 @@
             <div class="toggle-header flex-row-reverse">
 
                 <div class="toggle-title fw-medium" style="margin-top: 100px;">
-                    <a href="contato.html">
+                    <a href="contato.php">
                         <h3 style="margin-bottom: none; padding: none;"> Especialidade </h3>
                     </a>
                 </div>
@@ -327,7 +283,7 @@
                                 Entre em contato conosco para obter o suporte de especialistas contábeis </h2>
                             <p> altamente qualificados em questões financeiras e tributárias.</p>
                         </div>
-                        <a href="contato.html"
+                        <a href="contato.php"
                             class="button button-white button-light button-rounded fw-medium m-0">Entre em Contato</a>
                     </div>
 
@@ -355,15 +311,15 @@
                             <h4 class="ls-0 mb-4 text-transform-none">Suporte</h4>
 
                             <ul class="list-unstyled iconlist ms-0">
-                                <li class="mb-2"><a href="index.html">Home</a>
+                                <li class="mb-2"><a href="index.php">Home</a>
                                 </li>
-                                <li class="mb-2"><a href="empresa.html">A Empresa</a>
+                                <li class="mb-2"><a href="empresa.php">A Empresa</a>
                                 </li>
-                                <li class="mb-2"><a href="index.html#servicos">Serviços</a>
+                                <li class="mb-2"><a href="index.php#servicos">Serviços</a>
                                 </li>
-                                <li class="mb-2"><a href="contato.html">Fale Conosco</a>
+                                <li class="mb-2"><a href="contato.php">Fale Conosco</a>
                                 </li>
-                                <li class="mb-2"><a href="suporte.html">Suporte</a>
+                                <li class="mb-2"><a href="suporte.php">Suporte</a>
                                 </li>
                             </ul>
 

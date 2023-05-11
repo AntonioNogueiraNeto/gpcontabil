@@ -25,7 +25,7 @@
 				<img src="forms/images/img-01.png" alt="IMG">
 			</div>
 
-			<form class="contact1-form validate-form" action="./enviar-email.php" method="post" name="enviar-email" role="form">
+			<form class="contact1-form validate-form" action="./email-enviar.php" method="post" name="enviar-email" role="form">
 				<span class="contact1-form-title">
 					Entre em Contato
 				</span>

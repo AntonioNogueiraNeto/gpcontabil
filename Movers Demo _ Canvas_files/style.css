@@ -34249,3 +34249,58 @@ hr.style6 {
 .container-fluid{
   right: 0;
 }
+
+.container-suporte{
+  margin-top: 60px;
+}
+
+.bloco{
+  background-color: rgb(247, 246, 246);
+  height: 420px;
+  width: 780px;
+  border-radius: 30px;
+  margin: auto auto;
+  box-shadow: 1px;
+  -webkit-box-shadow: 9px 5px 24px -11px rgba(0,0,0,0.71);
+	-moz-box-shadow: 9px 5px 24px -11px rgba(0,0,0,0.71);
+	box-shadow: 9px 5px 24px -11px rgba(0,0,0,0.71);
+}
+
+.header-bloco{
+  display: flex;
+  border-bottom: 1px solid rgb(190, 188, 188);
+}
+.header-bloco .titulo{
+  margin: auto auto;
+}
+
+.header-bloco .titulo h4{
+  margin: auto auto;
+}
+
+.bloco .links-icons{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+}
+
+
+@media screen and (max-width: 800px){
+  .container-suporte{
+    margin-top: 60px;
+    display: flex;
+  }
+
+  .header-bloco{
+    flex-direction: column;
+  }
+  .header-bloco .titulo{
+    display: none;
+  }
+
+  .bloco .links-icons{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+  }
+}

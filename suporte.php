@@ -63,7 +63,7 @@
 				<!-- Logo
             ============================================= -->
 				<div id="logo" class="ms-auto ms-md-0 flex-grow-1">
-					<a href="index.html">
+					<a href="index.php">
 						<img src="logo1.png" alt="logo Gestão Publica Municipal">
 					</a>
 				</div><!-- #logo end -->
@@ -103,10 +103,10 @@
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav ">
 						<li class="nav-item">
-							<a class="nav-link menu-link " aria-current="page" href="index.html">Home</a>
+							<a class="nav-link menu-link " aria-current="page" href="index.php">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link menu-link " aria-current="page" href="empresa.html">Empresa</a>
+							<a class="nav-link menu-link " aria-current="page" href="empresa.php">Empresa</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link menu-link dropdown-toggle" href="#" role="button"
@@ -114,13 +114,15 @@
 								Serviços
 							</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="servicos.html"><i
-											class="bi bi-currency-exchange"></i> Serviços Contábeis</a></li>
-								<li><a class="dropdown-item" href="assessoriaprevidencia.html"><i class="bi-building"></i> Assessoria e
+								<li><a class="dropdown-item" href="servicos.php"><i class="bi bi-currency-exchange"></i>
+										Serviços Contábeis</a></li>
+								<li><a class="dropdown-item" href="assessoriaprevidencia.php"><i
+											class="bi-building"></i> Assessoria e
 										Consultoria Previdenciária</a></li>
-								<li><a class="dropdown-item" href="estruturacaoprevidenciaria.html"><i class="bi-globe"></i> Estruturação
+								<li><a class="dropdown-item" href="estruturacaoprevidenciaria.php"><i
+											class="bi-globe"></i> Estruturação
 										Previdenciária</a></li>
-								<li><a class="dropdown-item" href="treinamento.html"><i class="bi bi-clipboard-data"></i>
+								<li><a class="dropdown-item" href="treinamento.php"><i class="bi bi-clipboard-data"></i>
 										Treinamentos</a></li>
 							</ul>
 						</li>
@@ -128,7 +130,7 @@
 							<a class="nav-link menu-link" href="contato.php">Fale Conosco</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link menu-link" href="suporte.html">Suporte</a>
+							<a class="nav-link menu-link" href="suporte.php">Suporte</a>
 						</li>
 					</ul>
 				</div>
@@ -139,101 +141,60 @@
 	</header>
 
 
+	<section>
 
-	<section class="mb-4">
+		<div class="container-suporte">
 
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        a matter of hours to help you.</p>
+			<div class="bloco">
+				<div class="header-bloco">
 
-    <div class="row">
+					<div class="logo">
+						<img src="logo1.png" alt="">
+					</div>
 
-        <!--Grid column-->
-        <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+					<div class="titulo">
+						<h4>Sistema de Atendimento</h2>
+					</div>
 
-                <!--Grid row-->
-                <div class="row">
+				</div>
 
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
+				<div class="links-icons" style="justify-content: space-between; align-items: end; padding: 30px; ">
+					<div class="clientes" style="flex-direction: column; text-align: center;">
+						<a  target="_blank" href="https://www.fmrtecnologia.com.br/helpdesk/customer_login/customer_login.php">
+							<h4>Clientes</h4>
+							<img src="Movers Demo _ Canvas_files/suporte1.png" alt="">
+						</a>
+					</div>
+					<div class="funcionarios" style="flex-direction: column; text-align: center;">
+						<a target="_blank" href="https://www.fmrtecnologia.com.br/helpdesk/login/login.php">
+							<h4>Funcionários</h4>
 
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
+							<img src="Movers Demo _ Canvas_files/suporte2.png" alt="">
+						</a>
 
-                </div>
-                <!--Grid row-->
+					</div>
+					<div class="rastreio" style="flex-direction: column; text-align: center;">
+						<a target="_blank" href="https://www.fmrtecnologia.com.br/helpdesk/ctrl_tracking_tickets/ctrl_tracking_tickets.php">
+							<h4>Rastrear Ticket </h4>
 
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
-                        </div>
-                    </div>
-                </div>
-                <!--Grid row-->
+							<img src="Movers Demo _ Canvas_files/suporte3.png" alt="">
+						</a>
+					</div>
 
-                <!--Grid row-->
-                <div class="row">
+				</div>
 
-                    <!--Grid column-->
-                    <div class="col-md-12">
+				<img src="Movers Demo _ Canvas_files/logo_106_20.png" style="float: right;" alt="">
 
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
-                        </div>
 
-                    </div>
-                </div>
-                <!--Grid row-->
 
-            </form>
 
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-            </div>
-            <div class="status"></div>
-        </div>
-        <!--Grid column-->
 
-        <!--Grid column-->
-        <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
-                <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>San Francisco, CA 94126, USA</p>
-                </li>
+			</div>
+		</div>
+	</section>
 
-                <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+ 01 234 567 89</p>
-                </li>
 
-                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>contact@mdbootstrap.com</p>
-                </li>
-            </ul>
-        </div>
-        <!--Grid column-->
 
-    </div>
-
-</section>
 
 
 
@@ -257,15 +218,15 @@
 							<h4 class="ls-0 mb-4 text-transform-none">Suporte</h4>
 
 							<ul class="list-unstyled iconlist ms-0">
-								<li class="mb-2"><a href="index.html">Home</a>
+								<li class="mb-2"><a href="index.php">Home</a>
 								</li>
-								<li class="mb-2"><a href="empresa.html">A Empresa</a>
+								<li class="mb-2"><a href="empresa.php">A Empresa</a>
 								</li>
-								<li class="mb-2"><a href="index.html#servicos">Serviços</a>
+								<li class="mb-2"><a href="index.php#servicos">Serviços</a>
 								</li>
 								<li class="mb-2"><a href="contato.php">Fale Conosco</a>
 								</li>
-								<li class="mb-2"><a href="suporte.html">Suporte</a>
+								<li class="mb-2"><a href="suporte.php">Suporte</a>
 								</li>
 							</ul>
 

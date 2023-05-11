@@ -64,7 +64,7 @@
 
 
                 <div id="logo" class="ms-auto ms-md-0 flex-grow-1">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="logo1.png" alt="logo Gestão Publica Municipal">
                     </a>
                 </div>
@@ -109,10 +109,10 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link menu-link " aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link menu-link " aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link " aria-current="page" href="empresa.html">Empresa</a>
+                            <a class="nav-link menu-link " aria-current="page" href="empresa.php">Empresa</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link menu-link dropdown-toggle" href="#" role="button"
@@ -120,13 +120,13 @@
                                 Serviços
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="servicos.html"><i
+                                <li><a class="dropdown-item" href="servicos.php"><i
                                             class="bi bi-currency-exchange"></i> Serviços Contábeis</a></li>
-                                <li><a class="dropdown-item" href="acessoriaprevidencia.html"><i class="bi-building"></i> Assessoria e
+                                <li><a class="dropdown-item" href="acessoriaprevidencia.php"><i class="bi-building"></i> Assessoria e
                                         Consultoria Previdenciária</a></li>
-                                <li><a class="dropdown-item" href="estruturacaoprevidenciaria.html"><i class="bi-globe"></i> Estruturação
+                                <li><a class="dropdown-item" href="estruturacaoprevidenciaria.php"><i class="bi-globe"></i> Estruturação
                                         Previdenciária</a></li>
-                                <li><a class="dropdown-item" href="treinamento.html"><i class="bi bi-clipboard-data"></i>
+                                <li><a class="dropdown-item" href="treinamento.jpg"><i class="bi bi-clipboard-data"></i>
                                         Treinamentos</a></li>
                             </ul>
                         </li>
@@ -134,7 +134,7 @@
                             <a class="nav-link menu-link" href="contato.php">Fale Conosco</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link" href="suporte.html">Suporte</a>
+                            <a class="nav-link menu-link" href="suporte.php">Suporte</a>
                         </li>
                     </ul>
                 </div>
@@ -207,7 +207,7 @@
                                 Os serviços contábeis incluem a gestão financeira, contabilidade fiscal e relatórios
                                 financeiros para empresas. Eles ajudam a garantir que as finanças da empresa estejam em
                                 ordem e em conformidade com as regulamentações fiscais e contábeis.</p>
-                            <a target="_blank" href="servicos.html" class="color btn btn-sm p-0 btn-link"><u>Saiba
+                            <a target="_blank" href="servicos.php" class="color btn btn-sm p-0 btn-link"><u>Saiba
                                     mais</u> <i class="bi-arrow-right"></i></a>
                         </div>
                     </div>
@@ -222,7 +222,7 @@
                                 obtenção de benefícios previdenciários, como aposentadoria e pensão por morte. também
                                 orefecemos orientações sobre a legislação previdenciária e ajudamos a resolver questões
                                 relacionadas a contribuições e documentação.</p>
-                            <a target="_blank" href="acessoriaprevidencia.html" class="color btn btn-sm p-0 btn-link"><u>Saiba
+                            <a target="_blank" href="acessoriaprevidencia.php" class="color btn btn-sm p-0 btn-link"><u>Saiba
                                     mais</u> <i class="bi-arrow-right"></i></a>
                         </div>
                         <div class="col-sm-6">
@@ -247,7 +247,7 @@
                                 O objetivo é garantir um futuro financeiro estável para os funcionários e ajudar a
                                 atrair e
                                 reter talentos.</p>
-                            <a target="_blank" href="estruturacaoprevidenciaria.html" class="color btn btn-sm p-0 btn-link"><u>Saiba
+                            <a target="_blank" href="estruturacaoprevidenciaria.php" class="color btn btn-sm p-0 btn-link"><u>Saiba
                                     mais</u> <i class="bi-arrow-right"></i></a>
                         </div>
 
@@ -265,7 +265,7 @@
                                 software contábil e gestão financeira. O objetivo é ajudar as pessoas a tomar decisões
                                 informadas e aprimorar suas habilidades financeiras para melhorar a eficiência e a
                                 rentabilidade dos negócios.</p>
-                            <a target="_blank" href="treinamento.html" class="color btn btn-sm p-0 btn-link"><u>Saiba
+                            <a target="_blank" href="treinamento.php" class="color btn btn-sm p-0 btn-link"><u>Saiba
                                     mais</u> <i class="bi-arrow-right"></i></a>
                         </div>
                         <div class="col-sm-6">
@@ -306,7 +306,7 @@
             <div class="toggle-header flex-row-reverse">
 
                 <div class="toggle-title fw-medium" style="margin-top: 100px;">
-                    <a href="contato.html">
+                    <a href="contato.php">
                         <h3 style="margin-bottom: none; padding: none;"> Especialidade </h3>
                     </a>
                 </div>
@@ -344,7 +344,7 @@
                                 Entre em contato conosco para obter o suporte de especialistas contábeis </h2>
                             <p> altamente qualificados em questões financeiras e tributárias.</p>
                         </div>
-                        <a href="contato.html"
+                        <a href="contato.php"
                             class="button button-white button-light button-rounded fw-medium m-0">Entre em Contato</a>
                     </div>
 
@@ -372,15 +372,15 @@
 							<h4 class="ls-0 mb-4 text-transform-none">Suporte</h4>
 
 							<ul class="list-unstyled iconlist ms-0">
-								<li class="mb-2"><a href="index.html">Home</a>
+								<li class="mb-2"><a href="index.php">Home</a>
 								</li>
-								<li class="mb-2"><a href="empresa.html">A Empresa</a>
+								<li class="mb-2"><a href="empresa.php">A Empresa</a>
 								</li>
-								<li class="mb-2"><a href="index.html#servicos">Serviços</a>
+								<li class="mb-2"><a href="index.php#servicos">Serviços</a>
 								</li>
 								<li class="mb-2"><a href="contato.php">Fale Conosco</a>
 								</li>
-								<li class="mb-2"><a href="suporte.html">Suporte</a>
+								<li class="mb-2"><a href="suporte.php">Suporte</a>
 								</li>
 							</ul>
 

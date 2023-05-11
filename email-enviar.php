@@ -9,11 +9,11 @@
 
   //Corpo E-mail
   $arquivo = "
-    <html>
-      <p><b>Nome: </b>$nome</p>
-      <p><b>E-mail: </b>$email</p>
-      <p><b>Mensagem: </b>$mensagem</p>
-      <p>Este e-mail foi enviado em <b>$data_envio</b> às <b>$hora_envio</b></p>
+    
+    Nome: $nome
+    E-mail: </b>$email
+    Mensagem: </b>$mensagem
+    Este e-mail foi enviado em $data_envio</b> às <b>$hora_envio</b>
     </html>
   ";
   

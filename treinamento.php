@@ -63,7 +63,7 @@
                 <!-- Logo
             ============================================= -->
                 <div id="logo" class="ms-auto ms-md-0 flex-grow-1">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="logo1.png" alt="logo Gestão Publica Municipal">
                     </a>
                 </div><!-- #logo end -->
@@ -104,10 +104,10 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link menu-link " aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link menu-link " aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link " aria-current="page" href="empresa.html">Empresa</a>
+                            <a class="nav-link menu-link " aria-current="page" href="empresa.php">Empresa</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link menu-link dropdown-toggle" href="" role="button"
@@ -115,17 +115,17 @@
                                 Serviços
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="servicos.html"><i class="bi bi-currency-exchange"></i> Serviços Contábeis</a></li>
-                                <li><a class="dropdown-item" href="acessoriaprevidencia.html"><i class="bi-building"></i> Assessoria e Consultoria Previdenciária</a></li>
-                                <li><a class="dropdown-item" href="estruturacaoprevidenciaria.html"><i class="bi-globe"></i> Estruturação Previdenciária</a></li>
-                                <li><a class="dropdown-item" href="treinamento.html"><i class="bi bi-clipboard-data"></i> Treinamentos</a></li>
+                                <li><a class="dropdown-item" href="servicos.php"><i class="bi bi-currency-exchange"></i> Serviços Contábeis</a></li>
+                                <li><a class="dropdown-item" href="acessoriaprevidencia.php"><i class="bi-building"></i> Assessoria e Consultoria Previdenciária</a></li>
+                                <li><a class="dropdown-item" href="estruturacaoprevidenciaria.php"><i class="bi-globe"></i> Estruturação Previdenciária</a></li>
+                                <li><a class="dropdown-item" href="treinamento.php"><i class="bi bi-clipboard-data"></i> Treinamentos</a></li>
                     </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu-link" href="contato.html">Fale Conosco</a>
+                        <a class="nav-link menu-link" href="contato.php">Fale Conosco</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu-link" href="suporte.html">Suporte</a>
+                        <a class="nav-link menu-link" href="suporte.php">Suporte</a>
                     </li>
                     </ul>
                 </div>
@@ -249,7 +249,7 @@
             <div class="toggle-header flex-row-reverse">
 
                 <div class="toggle-title fw-medium" style="margin-top: 100px;">
-                    <a href="contato.html">
+                    <a href="contato.php">
                         <h3 style="margin-bottom: none; padding: none;"> Especialidade </h3>
                     </a>
                 </div>
@@ -287,7 +287,7 @@
                                 Entre em contato conosco para obter o suporte de especialistas contábeis </h2>
                             <p> altamente qualificados em questões financeiras e tributárias.</p>
                         </div>
-                        <a href="contato.html"
+                        <a href="contato.php"
                             class="button button-white button-light button-rounded fw-medium m-0">Entre em Contato</a>
                     </div>
 
@@ -315,15 +315,15 @@
                             <h4 class="ls-0 mb-4 text-transform-none">Suporte</h4>
 
                             <ul class="list-unstyled iconlist ms-0">
-                                <li class="mb-2"><a href="index.html">Home</a>
+                                <li class="mb-2"><a href="index.php">Home</a>
                                 </li>
-                                <li class="mb-2"><a href="empresa.html">A Empresa</a>
+                                <li class="mb-2"><a href="empresa.php">A Empresa</a>
                                 </li>
-                                <li class="mb-2"><a href="index.html#servicos">Serviços</a>
+                                <li class="mb-2"><a href="index.php#servicos">Serviços</a>
                                 </li>
-                                <li class="mb-2"><a href="contato.html">Fale Conosco</a>
+                                <li class="mb-2"><a href="contato.php">Fale Conosco</a>
                                 </li>
-                                <li class="mb-2"><a href="suporte.html">Suporte</a>
+                                <li class="mb-2"><a href="suporte.php">Suporte</a>
                                 </li>
                             </ul>
 
